@@ -25,5 +25,5 @@ N/A
 
 Please refer to the GitHub repository for licensing information. 
 
-Link to GitHub respository
+Link to GitHub respository:
 https://github.com/monicapong/challenge1
