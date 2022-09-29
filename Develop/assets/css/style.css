@@ -1,13 +1,16 @@
+/* Sets width and height of the page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Applies background color to the body of the page */
 body {
     background-color: #d9dcd6;
 }
 
+/* Applies a padding, font, background color, and font color to the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Applies inline block display and font size to the company name */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Applies a different color to the letters "seo" in Horiseon */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Applies a padding to the top of, and a margin to the bottom of the navigation links and displays the links to the right of the page. Applies font, font size, and hides the bullet points */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,20 +39,24 @@ body {
     list-style-type: none;
 }
 
+/* Applies inline block display and a margin to the left of the link description */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Applies font color to the navigation links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Applies font size to each paragraph */
 p {
     font-size: 16px;
 }
 
+/* Applies size and margin to the bottom of the cover image, and background image to display as the cover image */
 .hero {
     height: 800px;
     width: 100%;
@@ -56,22 +66,26 @@ p {
     background-position: center;
 }
 
+/* Position of image is to the left of the paragraph and a margin to the right of the image */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Position of image is to the right of the paragraph and a margin to the left of the image */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Applies size, inline block display, and a margin to the left of the content boxes */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Applies a margin on the bottom of each content box, and the size, font, background color, and font color to each content box */
 .content article {
     margin-bottom: 20px;
     padding: 50px;
@@ -81,15 +95,18 @@ p {
     color: #ffffff;
 }
 
+/* Image size of the images in the content box */
 .content article img {
     max-height: 200px;
 }
 
+/* Applies a margin to the bottom and font size to the title of each content box */
 .content article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Applies size, spacing, font, and background color to the benefits boxes and displays the benefits boxes to the right of the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -103,17 +120,20 @@ p {
     color: #ffffff;
 }
 
+/* Applies a margin to the bottom of each heading under the benefits section and center aligns the heading */
 .benefits figure h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Applies block display, margins and image size to the icons of the benefits section*/
 .benefits figure img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Applies a padding, font, and center text aligning to the footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -121,6 +141,7 @@ p {
     text-align: center;
 }
 
+/* Applies font size to the heading in the footer */
 .footer h2 {
     font-size: 20px;
 }
