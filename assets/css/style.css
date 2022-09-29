@@ -29,7 +29,7 @@ body {
     color: #d9dcd6;
 }
 
-/* Applies a padding to the top of, and a margin to the bottom of the navigation links and displays the links to the right of the page. Applies font, font size, and hides the bullet points */
+/* Applies a padding to the top of, and a margin to the bottom of the navigation bar and displays the navigation bar to the right of the page. Applies font, font size, and hides the bullet points */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -56,7 +56,7 @@ p {
     font-size: 16px;
 }
 
-/* Applies size and margin to the bottom of the cover image, and background image to display as the cover image */
+/* Applies size and margin to the bottom of the header image, and background image to display as the header image */
 .hero {
     height: 800px;
     width: 100%;
